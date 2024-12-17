@@ -1,3 +1,5 @@
+import './Founders.css';
+
 interface PeopleCard {
     name: string;
     role: string;
@@ -21,7 +23,7 @@ export const Dict_pepople = ({name, role, image}: PeopleCard) => {
 function Founders() {
     return (
         <div>
-            <div className='title-container-people ultra-48'>The Founding Fathers of Comics Book.</div>
+            <div className='title-container-people ultra-48'>The Founding Fathers of Comics </div>
             <div className='image-box'>
                 <Dict_pepople
                     name='John Romita Jr'

@@ -1,4 +1,6 @@
-import { SubsCard } from "../../components/SubsCard";
+import './Price.css'
+import { SubsCard } from '../../components/SubsCard';
+
 
 function Price() {
     return (
