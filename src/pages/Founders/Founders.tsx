@@ -1,5 +1,4 @@
 import styles from './Founders.module.css';
-import globalStyles from '/Users/mmarsianinn/Desktop/MyApp/src/global.module.css';
 
 interface PeopleCard {
     name: string;
@@ -14,8 +13,8 @@ export const Dict_pepople = ({ name, role, image }: PeopleCard) => {
                 <img src={image} alt="Img" className={styles.image} />
             </div>
             <div className={styles.textContainer}>
-                <div className={`${styles.names} ${globalStyles.ultra18}`}>{name}</div>
-                <div className={`${styles.roles} ${globalStyles.ultra11}`}>{role}</div>
+                <div className={`${styles.names} ${styles.ultra18}`}>{name}</div>
+                <div className={`${styles.roles} ${styles.ultra11}`}>{role}</div>
             </div>
         </div>
     );
@@ -24,7 +23,7 @@ export const Dict_pepople = ({ name, role, image }: PeopleCard) => {
 function Founders() {
     return (
         <div>
-            <div className={`${styles.titleContainerPeople} ${globalStyles.ultra48}`}>The Founding Fathers of Comics</div>
+            <div className={`${styles.titleContainerPeople} ${styles.ultra48}`}>The Founding Fathers of Comics</div>
             <div className={styles.imageBox}>
                 <Dict_pepople
                     name='John Romita Jr'

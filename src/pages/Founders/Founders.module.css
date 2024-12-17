@@ -108,3 +108,21 @@
 .textContainer .roles {
     margin-left: 10px;
 }
+
+.ultra18 {
+    color: white;
+    font-family: "Ultra", serif;
+    font-size: 18px;
+}
+
+.ultra11 {
+    color: white;
+    font-family: "Ultra", serif;
+    font-size: 11px;
+}
+
+.ultra48 {
+    color: white;
+    font-family: "Ultra", serif;
+    font-size: 48px;
+}
