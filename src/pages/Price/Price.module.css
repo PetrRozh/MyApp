@@ -1,11 +1,11 @@
-.body-card {
+.bodyCard {
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
 }
 
-.card-container {
+.cardContainer {
     display: grid;
     margin: 0 auto;
     width: 100%;
@@ -16,7 +16,7 @@
     max-width: 1200px;
 }
 
-.card-standart, .card-premium, .card-exclusive {
+.cardStandart, .cardPremium, .cardExclusive {
     margin-top: 7.8%;
     width: 90%;
     text-align: center;
@@ -27,50 +27,50 @@
     transition: box-shadow 0.3s ease-in-out;
 }
 
-.card-standart {
+.cardStandart {
     border: 2px solid #d59124;
     -webkit-box-shadow: 10px 1px 71px -11px rgba(213, 145, 36, 0.86);
     -moz-box-shadow: 10px 1px 71px -11px rgba(213, 145, 36, 0.86);
     box-shadow: 10px 1px 71px -11px rgba(213, 145, 36, 0.86);
 }
 
-.card-premium {
+.cardPremium {
     border: 2px solid #df5d31;
     -webkit-box-shadow: 10px 1px 71px -11px rgba(223, 93, 49, 0.86);
     -moz-box-shadow: 10px 1px 71px -11px rgba(223, 93, 49, 0.86);
     box-shadow: 10px 1px 71px -11px rgba(223, 93, 49, 0.86);
 }
 
-.card-exclusive {
+.cardExclusive {
     border: 2px solid #dc1d1d;
     -webkit-box-shadow: 10px 1px 71px -11px rgba(220, 29, 29, 0.86);
     -moz-box-shadow: 10px 1px 71px -11px rgba(220, 29, 29, 0.86);
     box-shadow: 10px 1px 71px -11px rgba(220, 29, 29, 0.86);
 }
 
-.card-standart:hover {
+.cardStandart:hover {
     box-shadow: 0px 5px 75px 12px #fdbd4e;
     color: white;
 }
 
-.card-premium:hover {
+.cardPremium:hover {
     box-shadow: 0px 5px 75px 12px #ff4000;
     color: white;
 }
 
-.card-exclusive:hover {
+.cardExclusive:hover {
     box-shadow: 0px 5px 75px 12px #ff0000;
     color: white;
 }
 
-.name-card {
+.nameCard {
     margin: auto;
     margin-top: 15%;
     width: fit-content;
     text-align: center;
 }
 
-.price-card {
+.priceCard {
     margin: auto;
     margin-bottom: 8%;
     width: fit-content;
@@ -79,14 +79,14 @@
     justify-content: center;
 }
 
-.text-card-container {
+.textCardContainer {
     margin-left: 5%;
     margin-bottom: 5%;
     width: fit-content;
     text-align: left;
 }
 
-.title-container {
+.titleContainer {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -94,7 +94,7 @@
     margin-bottom: 4%;
 }
 
-.text-container-price {
+.textContainerPrice {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -106,9 +106,15 @@
     text-align: center;
 }
 
-.explore-container {
+.exploreContainer {
     margin: auto;
     margin-top: 20%;
     margin-bottom: 5%;
     text-align: center;
+}
+
+.ultra48 {
+    color: white;
+    font-family: "Ultra", serif;
+    font-size: 48px;
 }

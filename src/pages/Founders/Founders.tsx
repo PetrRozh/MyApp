@@ -1,4 +1,5 @@
-import './Founders.css';
+import styles from './Founders.module.css';
+import globalStyles from '/Users/mmarsianinn/Desktop/MyApp/src/global.module.css';
 
 interface PeopleCard {
     name: string;
@@ -6,15 +7,15 @@ interface PeopleCard {
     image: string;
 }
 
-export const Dict_pepople = ({name, role, image}: PeopleCard) => {
+export const Dict_pepople = ({ name, role, image }: PeopleCard) => {
     return (
-        <div className='image-card'>
-            <div className='image-container'>
-                <img src={image} alt="Img" className='image' />
+        <div className={styles.imageCard}>
+            <div className={styles.imageContainer}>
+                <img src={image} alt="Img" className={styles.image} />
             </div>
-            <div className='text-container'>
-                <div className='names ultra-18'>{name}</div>
-                <div className='roles ultra-11'>{role}</div>
+            <div className={styles.textContainer}>
+                <div className={`${styles.names} ${globalStyles.ultra18}`}>{name}</div>
+                <div className={`${styles.roles} ${globalStyles.ultra11}`}>{role}</div>
             </div>
         </div>
     );
@@ -23,8 +24,8 @@ export const Dict_pepople = ({name, role, image}: PeopleCard) => {
 function Founders() {
     return (
         <div>
-            <div className='title-container-people ultra-48'>The Founding Fathers of Comics </div>
-            <div className='image-box'>
+            <div className={`${styles.titleContainerPeople} ${globalStyles.ultra48}`}>The Founding Fathers of Comics</div>
+            <div className={styles.imageBox}>
                 <Dict_pepople
                     name='John Romita Jr'
                     role="Iron Man's creator"

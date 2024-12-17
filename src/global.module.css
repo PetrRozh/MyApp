@@ -3,18 +3,21 @@ html, body {
     padding: 0;
     height: 100%;
     width: 100%;
-    overflow-x: hidden 
-    }
+    overflow-x: hidden;
+}
+
 #root {
     height: 100%;
     width: 100%;
-    }
+}
+
 body {
     background-image: url('./assets/background.jpg');
-    background-size: cover; 
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
+
 body::before {
     content: '';
     position: absolute;
@@ -26,63 +29,73 @@ body::before {
     z-index: -1;
 }
 
-.ultra-regular {
+.ultraRegular {
     font-family: "Ultra", serif;
     font-weight: 400;
     font-style: normal;
 }
-.ultra-11 {
+
+.ultra11 {
     color: white;
     font-family: "Ultra", serif;
-    font-size: 11px
-}  
-.ultra-18 {
+    font-size: 11px;
+}
+
+.ultra18 {
     color: white;
     font-family: "Ultra", serif;
     font-size: 18px;
-} 
-.ultra-20 {
+}
+
+.ultra20 {
     color: white;
     font-family: "Ultra", serif;
     font-size: 20px;
-}  
-.ultra-24 {
+}
+
+.ultra24 {
     color: white;
     font-family: "Ultra", serif;
-    font-size: 24px
+    font-size: 24px;
 }
-.ultra-36 {
+
+.ultra36 {
     color: white;
     font-family: "Ultra", serif;
-    font-size: 36px
+    font-size: 36px;
 }
-.ultra-48 {
+
+.ultra48 {
     color: white;
     font-family: "Ultra", serif;
-    font-size: 48px
+    font-size: 48px;
 }
-.atma-18 {
+
+.atma18 {
     color: white;
     font-family: "Atma", serif;
     font-weight: 100;
     font-style: normal;
     font-size: 18px;
 }
-.atma-20 {
+
+.atma20 {
     color: white;
     font-family: "Atma", serif;
     font-weight: 100;
     font-style: normal;
     font-size: 20px;
 }
-.atma-24 {
+
+.atma24 {
     color: white;
     font-family: "Atma", sans-serif;
     font-weight: 100;
     font-style: normal;
     font-size: 24px;
 }
-.atma-28 {
+
+.atma28 {
     color: white;
     font-family: "Atma", sans-serif;
     font-weight: 100;

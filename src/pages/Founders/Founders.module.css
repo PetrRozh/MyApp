@@ -1,11 +1,11 @@
-.body-image-card {
+.bodyImageCard {
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
 }
 
-.image-box {
+.imageBox {
     display: grid;
     margin: 0 auto;
     width: 100%;
@@ -15,9 +15,10 @@
     justify-content: space-between;
     max-width: 1200px;
     padding: 20px;
+    margin-top: 55px;
 }
 
-.image-card {
+.imageCard {
     position: relative;
     width: 100%;
     justify-content: center;
@@ -28,19 +29,19 @@
     transition: transform 0.3s ease-in-out;
 }
 
-.image-container {
+.imageContainer {
     position: relative;
     overflow: hidden;
     border-radius: 8px;
     transition: transform 0.3s ease-in-out, height 0.3s ease-in-out;
 }
 
-.image-card:hover .image-container {
+.imageCard:hover .imageContainer {
     transform: translateY(-20px) scale(0.9);
     height: 450px;
 }
 
-.image-card:hover .text-container {
+.imageCard:hover .textContainer {
     transform: translateY(20px);
 }
 
@@ -67,7 +68,7 @@
     transition: transform 0.3s ease-in-out;
 }
 
-.title-container-people {
+.titleContainerPeople {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -89,13 +90,13 @@
     transition: transform 0.3s ease-in-out;
 }
 
-.image-card:hover .overlay {
+.imageCard:hover .overlay {
     display: block;
     cursor: pointer;
-    transform: translateY(0)
+    transform: translateY(0);
 }
 
-.text-container {
+.textContainer {
     transition: transform 0.3s ease-in-out;
     padding: 10px;
     text-align: center;
@@ -103,8 +104,7 @@
     z-index: 1;
 }
 
-.text-container .names,
-.text-container .roles {
-    margin-top: 10px;
-    margin-left: -70px;  
+.textContainer .names,
+.textContainer .roles {
+    margin-left: 10px;
 }

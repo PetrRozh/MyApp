@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import './Community.css';
+import styles from './Community.module.css';
 
 function Community() {
     const [dogImageUrl, setDogImageUrl] = useState<string | null>(null);
@@ -19,17 +19,17 @@ function Community() {
 
     return (
         <div>
-            <div className='title-container-community'>
+            <div className={styles.titleContainerCommunity}>
                 What about our community?
             </div>
-            <div className='text-container-about-title'>
+            <div className={styles.textContainerAboutTitle}>
                 <p>Comic Book Fan Community is an exciting community of comic book fans and creators from around the world. Here, people of different ages and interests find like-minded people and discuss their favorite stories and characters.</p>
                 <p>The community actively holds meetings and festivals, gathering thousands of fans for joint celebrations. These events host workshops and presentations where members can meet comic book creators and be the first to see new issues and trailers.</p>
                 <p>These events are filled with joy and a spirit of creativity, allowing each participant to feel part of the vast and friendly world of fantasy and comic book art. In such a friendly atmosphere, many not only make new friends, but also get inspired to create their own works.</p>
             </div>
             {dogImageUrl && (
-                <div className='dog-image-container'>
-                    <img src={dogImageUrl} alt='Random Dog' className='dog-image' />
+                <div className={styles.dogImageContainer}>
+                    <img src={dogImageUrl} alt='Random Dog' className={styles.dogImage} />
                 </div>
             )}
         </div>

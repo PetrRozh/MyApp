@@ -1,15 +1,16 @@
-.title-container-history {
+/* About.module.css */
+.titleContainerHistory {
   font-family: "Ultra", serif;
   color: white;
   font-size: 48px;
-  display: flex; 
+  display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 1.85%;
   margin-bottom: -5%;
 }
 
-.timeline-container {
+.timelineContainer {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -37,13 +38,13 @@
   margin-left: -3px;
 }
 
-.timeline-item {
+.timelineItem {
   position: relative;
   background-color: inherit;
   width: 50%;
 }
 
-.timeline-item::after {
+.timelineItem::after {
   content: '';
   position: absolute;
   width: 25px;
@@ -56,7 +57,7 @@
   z-index: 1;
 }
 
-.timeline-marker {
+.timelineMarker {
   padding: 0 20px;
   position: absolute;
   width: 250px;
@@ -65,7 +66,7 @@
   z-index: 2;
 }
 
-.marker-text {
+.markerText {
   color: #f1c40f;
   font-size: 18px;
   font-weight: bold;
@@ -75,17 +76,17 @@
   margin-left: -132px;
 }
 
-.marker-year {
+.markerYear {
   display: block;
   color: #f1c40f;
   font-size: 14px;
   color: white;
   font-family: "Ultra", serif;
   font-size: 16.5px;
-  margin-left: -132px; 
+  margin-left: -132px;
 }
 
-.timeline-content {
+.timelineContent {
   margin-top: 30px;
   display: flex;
   align-items: center;
@@ -94,7 +95,7 @@
   width: 100vw;
 }
 
-.timeline-image-left {
+.timelineImageLeft {
   max-width: 100%;
   width: 400px;
   height: 600px;
@@ -107,12 +108,12 @@
   box-shadow: 0px 2px 71px -5px #ff4000;
 }
 
-.timeline-image-left:hover {
+.timelineImageLeft:hover {
   box-shadow: 0px 5px 75px 12px #ff4000;
   color: white;
 }
 
-.timeline-text-right {
+.timelineTextRight {
   background-color: rgba(255, 187, 0, 0.5);
   font-family: "Atma", serif;
   color: white;
@@ -127,11 +128,12 @@
   box-shadow: 0px 2px 71px -5px #e99400;
 }
 
-.timeline-text-right:hover {
+.timelineTextRight:hover {
   box-shadow: 0px 5px 75px 12px #fdbd4e;
   color: white;
 }
-.timeline-image-right {
+
+.timelineImageRight {
   max-width: 100%;
   width: 400px;
   height: 600px;
@@ -144,12 +146,12 @@
   box-shadow: 0px 2px 71px -5px #ff4000;
 }
 
-.timeline-image-right:hover {
+.timelineImageRight:hover {
   box-shadow: 0px 5px 75px 12px #ff4000;
   color: white;
 }
 
-.timeline-text-left {
+.timelineTextLeft {
   background-color: rgba(255, 187, 0, 0.5);
   font-family: "Atma", serif;
   color: white;
@@ -165,7 +167,7 @@
   box-shadow: 0px 2px 71px -5px #e99400;
 }
 
-.timeline-text-left:hover {
+.timelineTextLeft:hover {
   box-shadow: 0px 5px 75px 12px #fdbd4e;
   color: white;
 }
