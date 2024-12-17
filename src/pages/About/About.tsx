@@ -1,10 +1,9 @@
 import React from 'react';
-import './About.css';
 
 const About: React.FC = () => {
   return (
     <div>
-        <div className='title-container-history'>The History of Comics</div>
+        <div className='title-container-pages'>The History of Comics</div>
         
         <div className="timeline-container">
             <div className="timeline">

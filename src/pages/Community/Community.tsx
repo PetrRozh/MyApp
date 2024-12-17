@@ -1,5 +1,4 @@
 import { useEffect, useState } from 'react';
-import './Community.css';
 
 function Community() {
     const [dogImageUrl, setDogImageUrl] = useState<string | null>(null);
@@ -19,7 +18,7 @@ function Community() {
 
     return (
         <div>
-            <div className='title-container-community'>
+            <div className='title-container-pages'>
                 What about our community?
             </div>
             <div className='text-container-about-title'>
