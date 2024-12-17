@@ -1,5 +1,5 @@
 import styles from './Price.module.css';
-import { SubsCard } from './SubsCard';
+import { SubsCard } from '../../components/SubsCard';
 
 function Price() {
     return (

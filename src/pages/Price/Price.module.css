@@ -118,3 +118,23 @@
     font-family: "Ultra", serif;
     font-size: 48px;
 }
+
+.atma18 {
+    color: white;
+    font-family: "Atma", serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 18px;
+}
+
+.ultra18 {
+    color: white;
+    font-family: "Ultra", serif;
+    font-size: 18px;
+}
+
+.ultra24 {
+    color: white;
+    font-family: "Ultra", serif;
+    font-size: 24px;
+}
